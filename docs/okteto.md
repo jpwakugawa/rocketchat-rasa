@@ -3,7 +3,7 @@
 
 O primeiro passo a ser feito é realizar o comando:
 ```
-$ docker-compose up --build 
+sudo docker-compose up --build 
 ```
 Em seguida é necessário realizar os passos documentados no readme da aplicação, ou seja:
 - **1 - Acessar o link: http://localhost:3000/**
@@ -22,7 +22,7 @@ public: true
 
 Por fim, execute o comando:
 ```
-okteto stack deploy --build
+sudo okteto stack deploy --build
 ```
 Abra o link que será gerado no site do próprio okteto, ele será parecido com este, sendo que a única diferença será o nome do usuário presente no link.
 * https://rocketchat-leo0liveira.cloud.okteto.net/
